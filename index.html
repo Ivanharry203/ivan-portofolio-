@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- EDITAR - AGREGA TU NOMBRE -->
+        <title>Ivan Harry Faisya|Portofolio </title> 
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Botón para cambiar el tema -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+    
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- EDITAR - Cambialo por tu imagen, reemplaza el archivo "perfil.png" dentro de la carpeta assets/img/ -->
+                            <img src="assets/img/fp.png">
+                        </div>
+                    </div>
+                    
+                    <!-- EDITAR - Agrega tu nombre debajo -->
+                    <h2 class="profile__name">Ivan Harry Faisya</h2>
+                    <h3 class="profile__profession">Information and Technology Student College </h3>
+                    
+                    <!-- EDITAR - Cambia tu nombre de usuario de cada plataforma -->
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/ivanharry_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://github.com/Ivanharry203" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ivan-harry-1b438328a" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                    </ul>
+                </div>
+                
+
+                <div class="profile__buttons">
+                    <a href="https://www.kompasiana.com/ivanharry203/667c033d34777c73376a6b05/spot-sniper-update-2024-beserta-counternya-di-map-nuketown-call-of-duty-mobile" target="_blank" class="button">
+                        <span class="button__text">
+                            Blog<i class="ri-arrow-right-up-line"></i>
+                        </span>
+                    </a>
+                    
+                    <!-- OPCIONAL - Si necesitas agregar tu CV descomenta esto -->
+                    <!-- <a download="" href="/assets/pdf/tmcyber.pdf" class="button">
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a> -->
+
+                    <div class="profile__buttons-small">
+                        <!-- EDITAR - Agrega tu código de país y tu número de teléfono -->
+                        <a href="https://api.whatsapp.com/send?phone=6283841427656&text=hello,can we talk now?" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- EDITAR - Si aceptas donaciones por Ko-Fi cambia tu nombre de usuaurio -->
+                        <a href="dana://send-money?phoneNumber=0895603126471" target="_blank" class="button button__small button__gray">
+                            <i class="ri-hand-coin-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button" data-target="#projects">
+                        Project
+                    </button>
+                    <button class="filters__button filter-tab-active" data-target="#skills">
+                        Competence
+                    </button>
+                    <button class="filters__button" data-target="#repos">
+                        Certificate
+                    </button>
+                    <button class="filters__button" data-target="#sambutan">
+                        Welcome
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- EDITAR - Puedes cambiar la imagen con una rectangular (Ej: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/web_amma.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle"> Amma Jasa Marketing Responsive Web</span>
+                                    <h3 class="projects__title">Amma Jasa Apk</h3>
+                                    <a href="https://saveyourtime.vercel.app/" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- OPCIONAL - Puedes descomentar esto si necesitas agregar más proyectos-->
+
+                        <article class="projects__card">
+                            <img src="assets/img/Tien.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Tien Marketpalace Resposive Website</span>
+                                    <h3 class="projects__title">TienZone Marketpalace</h3>
+                                    <a href="https://ivanharry203.github.io/tienzone/" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/silans.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Magelang City Ambulance Service System</span>
+                                    <h3 class="projects__title">Silans Website for pc (not mobile Responsive\) </h3>
+                                    <a href="https://ivanharry203.github.io/silans/pjbl.html" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/logo.tien.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Official Logo of Himatif Untidar Entrepreneurship Division</span>
+                                    <h3 class="projects__title">Tien (Teknologi Inofrmasi Entrepreneur) Himatif Untidar Logo</h3>
+                                    <a href="https://www.instagram.com/tien.up?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/hki.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Untidar HKI Center Video Profiling</span>
+                                    <h3 class="projects__title">Profiling video  HKI Untidar</h3>
+                                    <a href="https://youtu.be/4SW8Qxgs1-4?si=hIxcxV69xhnTFtT5" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/logo_electrifekta.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Logo for the 2023 Untidar Electrical Engineering Department Annual "Makrab"</span>
+                                    <h3 class="projects__title">2023 Electrical Engineering Department "Makrab" logo</h3>
+                                    <a href="https://www.instagram.com/p/Cyr2WoGPjOy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/sdimi.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Instagram content manager amma jasa</span>
+                                    <h3 class="projects__title">Amma jasa instagram content branding</h3>
+                                    <a href="https://www.instagram.com/amma.jasa/" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!--<article class="projects__card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Design</span>
+                                    <h3 class="projects__title">Music app design</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>-->
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <!-- EDITAR - Cámbialo dependiendo de tus Habilidades -->
+                    <div class="skills__content grid filters__active" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Ability</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">WEBDev (HTML,CSS,Js)</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Mobile Apps Developer</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Apps and Graphic Desainer</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Videographer & Editing</h3>
+                                            <span class="skills__level">advanced</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Cutting Combed</h3>
+                                            <span class="skills__level">advanced</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Pemograman</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                    <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Flutter</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Dart</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">PHP</h3>
+                                            <span class="skills__level">Beginner</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="repos__content grid" data-content id="repos">
+                        <article class="projects__card">
+                            <img src="assets/img/uad2.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle"> </span>
+                                    <h4 class="projects__title">2nd Place in Best Product Innovation in UAD FAIR #3</h4>
+                                    <a href="https://www.instagram.com/p/C9ggYX4yZpb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/p2mw.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle"> </span>
+                                    <h4 class="projects__title">Belmawa Funding</h4>
+                                    <a href="https://www.instagram.com/p/C6VFBqNvClK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/kepala divixi.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle"> </span>
+                                    <h4 class="projects__title">Head of Entrepreneurship Division Information Technology Student Association Untidar 2024 </h4>
+                                    <a href="https://www.instagram.com/p/C9fCxeWvTh4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/kecakapan.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle"> </span>
+                                    <h4 class="projects__title">English proficiency </h4>
+                                    <a href="https://www.instagram.com/p/C9fCxeWvTh4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="repos__content grid" data-content id="sambutan">
+                        <!--=============== WELCOME MESSAGE WITH ANIMATED TEXT ===============-->
+                        <div class="welcome-container">
+                            <div id="text-container" class="text-container">
+                                <div id="text-content" class="text-content">
+                                    Welcome to my profile! I'm so glad you visited this page. If you need freelance workers, you can contact me. I have experience in various projects and am ready to help you achieve your goals. Please send a message to discuss your project further. Thank You!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <style>
+                        .welcome-container {
+                            width: 100%;
+                            padding: 20px;
+                            background-color: #333;
+                            position: relative;
+                            border-radius: 5px;
+                            box-sizing: border-box;
+                            margin-top: 20px;
+                        }
+                    
+                        .translate-button {
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            padding: 6px 12px;  
+                            background-color: #007bff;
+                            color: #fff;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            font-size: 12px;  
+                            transition: transform 0.2s, background-color 0.2s;  
+                        }
+                    
+                        .translate-button:active {
+                            transform: scale(0.95); 
+                            background-color: #0056b3; 
+                        }
+                    
+                        .text-container {
+                            position: relative;
+                            padding: 20px;
+                            height: auto;
+                            box-sizing: border-box;
+                            color: #fff;
+                            overflow-wrap: break-word;
+                        }
+                    
+                        .text-content {
+                            font-size: 16px;
+                        }
+                    
+                        @media screen and (max-width: 600px) {
+                            .welcome-container {
+                                padding: 15px;
+                            }
+                    
+                            .translate-button {
+                                top: 5px;
+                                right: 5px;
+                                padding: 6px 10px;  
+                                font-size: 10px;  
+                    
+                            .text-container {
+                                padding: 10px;
+                            }
+                    
+                            .text-content {
+                                font-size: 14px;
+                            }
+                        }
+                    </style>
+                    
+                    <script>
+                    function translateText() {
+                    const textContent = document.getElementById('text-content');
+                    const translateButton = document.querySelector('.translate-button');
+
+                    if (translateButton.innerText === 'Translate to English') {
+                        textContent.innerText = "Welcome to my GitHub profile! I am very glad you visited this page.";
+                        translateButton.innerText = 'Translate to Bahasa';
+                    } else {
+                        textContent.innerText = "Selamat datang di profil GitHub saya! Saya sangat senang Anda mengunjungi halaman ini.";
+                        translateButton.innerText = 'Translate to English';
+                    }
+                     }
+                    </script>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <!-- EDITAR - Cambialo por tu nombre -->
+            <span class="footer__copy">
+                &#169; Ivan Harry [Portofolio].Open for a job.
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
